@@ -1,6 +1,7 @@
 # Prevendo Diabetes
-
 Este projeto é um aplicativo web que usa Machine Learning para prever se uma pessoa tem diabetes ou não, baseado em alguns dados de entrada. O aplicativo usa Streamlit para criar a interface gráfica, pandas para manipular os dados, scikit-learn para treinar e avaliar um modelo de regressão logística, e matplotlib para gerar gráficos. A base de dados usada é a [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database), que contém registros médicos de mulheres indígenas dos EUA.
+
+## [acesse o projeto online aqui](https://prevendo-diabetes.gustavo-h-marti.repl.co/) 
 
 ## Como clonar o projeto
 
