@@ -91,3 +91,4 @@ if submit_button:
         st.write("Parabéns, você não está propensa a ter diabetes!")
     else:
         st.write("Atenção, você está propensa a ter diabetes! Procure um médico para orientações.")
+st.write("Este é um modelo de teste, suas respostas são baseadas em cálculos matemáticos e não substituiem a opinão médica ou de alguém de fato qualificado.")
