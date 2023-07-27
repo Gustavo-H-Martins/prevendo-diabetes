@@ -29,3 +29,6 @@ Este projeto é um aplicativo web que usa Machine Learning para prever se uma pe
 - [Matplotlib](https://matplotlib.org/): uma biblioteca Python que permite criar gráficos e visualizações de dados. Você pode ver mais informações sobre o Matplotlib neste [link](https://matplotlib.org/).
 - [Scikit-learn](https://scikit-learn.org/stable/getting_started.html): uma biblioteca Python que oferece ferramentas simples e eficientes para Machine Learning. Você pode ver mais informações sobre o Scikit-learn neste [link](https://scikit-learn.org/stable/getting_started.html).
 - [Imbalanced-learn](https://imbalanced-learn.org/stable/install.html): uma biblioteca Python que oferece técnicas para lidar com dados desbalanceados. Você pode ver mais informações sobre a Imbalanced-learn neste [link](https://imbalanced-learn.org/stable/install.html).
+
+# Lincença de uso
+- [Lincença](.\LICENCE.md)
