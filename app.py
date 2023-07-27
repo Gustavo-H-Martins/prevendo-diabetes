@@ -50,7 +50,7 @@ st.header(f"""⚠️⚠️⚠️Atenção⚠️⚠️⚠️
         {os.linesep}são de registros de mulheres com ou não diabetes""")
 
 # Permitindo a inserção do nome do usuário pelo próprio
-nome = st.text_input("Digite seu nome:")
+nome = st.text_input("Digite seu nome:", placeholder="Nome da paciente")
 
 # Escrevendo o nome do usuário que foi dado na entrada
 st.write(f"Olá {nome}, seja bem-vindo(a) ao aplicativo de previsão de Diabetes!")
