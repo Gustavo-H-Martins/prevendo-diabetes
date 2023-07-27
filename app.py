@@ -60,6 +60,13 @@ st.write("O modelo utilizado para prever diabetes é uma regressão logística. 
 fig, ax = plt.subplots()
 ax.bar(["Acurácia", "Precisão", "Recall", "F1-score"], [acc, prec, rec, f1])
 ax.set_ylim(0, 1)
+
+# Adicionando o percentual em cada extremidade das barras
+# Criando uma lista de strings com o formato "xx%"
+labels = [f"{v*100:.0f}%" for v in [acc, prec, rec, f1]] 
+# Rotulando as barras com os valores
+ax.bar_label(ax.containers[0], labels=labels, label_type="edge") 
+
 st.pyplot(fig)
 
 # Criando um formulário para receber os dados de entrada do usuário
